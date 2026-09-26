@@ -234,27 +234,3 @@ footer {
   color: white;
   font-size: 10px;
 }
-
-@media (max-width: 768px) {
-  header,
-  .ServicesSection,
-  .aboutUssection,
-  .footerSection {
-    width: 90%;
-  }
-
-  .servicesContainer,
-  .about,
-  .footerSection {
-    flex-direction: column;
-  }
-
-  .serviceBox {
-    width: 100%;
-  }
-
-  .slider {
-    width: 100%;
-    height: auto;
-  }
-}
